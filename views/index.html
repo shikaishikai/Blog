@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/public/stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="/public/stylesheets/artical_detail.css">
+    <script src="/public/javascripts/bootstrap.js"></script>
+    <script src="/public/javascripts/bootstrap.js"></script>
+</head>
+<body>
+    <!--头部 -->
+    <div class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">欢迎来到博客园</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">xx博客园</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">园子 <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">新闻</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多选择 <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">博文</a></li>
+                <li><a href="#">小组</a></li>
+                <li><a href="#">收藏</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">招聘</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">班级</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">搜索</button>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">登录</a></li>
+                <li><a href="#">注册</a></li>
+
+
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!--内容 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <!--个人信息 -->
+                <div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">李华的博客</h3>
+                      </div>
+                      <div class="panel-body">
+                        <div>昵称：李华</div>
+                        <div>园龄：4年</div>
+                        <div>头像：<img src="/public/images/tou1.jpg" alt="" width="60" height="60"></div>
+                      </div>
+                    </div>
+                </div>
+            <!--分类归档 -->
+                <div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">分类归档</h3>
+                      </div>
+                      <div class="panel-body">
+
+                             <!--cate.article_set.all.count  从文章表里反查标签分类的文章数 -->
+                            <div><a href="xxx">编程语言(150)</a></div>
+                            <div><a href="xxx">软件设计(100)</a></div>
+                            <div><a href="xxx">web前端(120)</a></div>
+
+                      </div>
+                    </div>
+                </div>
+            <!--标签归档 -->
+                <div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">标签归档</h3>
+                      </div>
+                      <div class="panel-body">
+
+                             <!--cate.article_set.all.count  从tag里反查标签分类的文章数 -->
+                            <div><a href="xxx">node.js(150)</a></div>
+                            <div><a href="xxx">python(100)</a></div>
+                            <div><a href="xxx">java(120)</a></div>
+
+                      </div>
+                    </div>
+                </div>
+            <!--时间归档 -->
+                <div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h3 class="panel-title">时间归档</h3>
+                      </div>
+                      <div class="panel-body">
+                          <div><a href="xxxxx">2019-1:(200)</a></div>
+                            <div><a href="xxxxx">2019-2:(200)</a></div>
+                            <div><a href="xxxxx">2019-3:(200)</a></div>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--文章内容 -->
+            <div class="col-lg-9">
+
+                  <div class="artical_item">
+                      <div><a href="xxx">python简介</a></div><p></p>
+                      <div class="row">
+                          <div class="col-lg-1">
+                              <a href="#"><img src="/public/images/tou1.jpg" alt="" width="60" height="60"></a>
+                          </div>
+                          <div class="text col-lg-10">python之路 第一篇 一 编程语言： 1.机器语言：直接用二进制编程，直接操作硬件。 2.汇编语言：用英文标签来代替一串特定意义的二进制，直接操作硬件 3.高级语言：站在人的角度的语言，机器无法理解 综合来讲，由于程序员的时间比电脑时间更有价值，所以开发效率高更重要。</div>
+                      </div><p></p>
+                      <div>
+                          <a href="#">作者：李华</a>&nbsp;
+                          <span>发布于：2019-4-10</span>
+                          <a href=""><span class="glyphicon glyphicon-comment">评论(59)</span></a>
+                          <a href=""><span class="glyphicon glyphicon-thumbs-up">阅读(43)</span></a>
+                      </div>
+
+                  </div>
+                  <hr>
+                  <div class="artical_item">
+                          <div><a href="xxx">python简介</a></div><p></p>
+                          <div class="row">
+                              <div class="col-lg-1">
+                                  <a href="#"><img src="/public/images/tou1.jpg" alt="" width="60" height="60"></a>
+                              </div>
+                              <div class="text col-lg-10">python之路 第一篇 一 编程语言： 1.机器语言：直接用二进制编程，直接操作硬件。 2.汇编语言：用英文标签来代替一串特定意义的二进制，直接操作硬件 3.高级语言：站在人的角度的语言，机器无法理解 综合来讲，由于程序员的时间比电脑时间更有价值，所以开发效率高更重要。</div>
+                          </div><p></p>
+                          <div>
+                              <a href="#">作者：李华</a>&nbsp;
+                              <span>发布于：2019-4-10</span>
+                              <a href=""><span class="glyphicon glyphicon-comment">评论(59)</span></a>
+                              <a href=""><span class="glyphicon glyphicon-thumbs-up">阅读(43)</span></a>
+                          </div>
+
+                      </div>
+                      <hr>
+                <div class="artical_item">
+                          <div><a href="xxx">python简介</a></div><p></p>
+                          <div class="row">
+                              <div class="col-lg-1">
+                                  <a href="#"><img src="/public/images/tou1.jpg" alt="" width="60" height="60"></a>
+                              </div>
+                              <div class="text col-lg-10">python之路 第一篇 一 编程语言： 1.机器语言：直接用二进制编程，直接操作硬件。 2.汇编语言：用英文标签来代替一串特定意义的二进制，直接操作硬件 3.高级语言：站在人的角度的语言，机器无法理解 综合来讲，由于程序员的时间比电脑时间更有价值，所以开发效率高更重要。</div>
+                          </div><p></p>
+                          <div>
+                              <a href="#">作者：李华</a>&nbsp;
+                              <span>发布于：2019-4-10</span>
+                              <a href=""><span class="glyphicon glyphicon-comment">评论(59)</span></a>
+                              <a href=""><span class="glyphicon glyphicon-thumbs-up">阅读(43)</span></a>
+                          </div>
+
+                      </div>
+                      <hr>
+                <div class="artical_item">
+                          <div><a href="xxx">python简介</a></div><p></p>
+                          <div class="row">
+                              <div class="col-lg-1">
+                                  <a href="#"><img src="/public/images/tou1.jpg" alt="" width="60" height="60"></a>
+                              </div>
+                              <div class="text col-lg-10">python之路 第一篇 一 编程语言： 1.机器语言：直接用二进制编程，直接操作硬件。 2.汇编语言：用英文标签来代替一串特定意义的二进制，直接操作硬件 3.高级语言：站在人的角度的语言，机器无法理解 综合来讲，由于程序员的时间比电脑时间更有价值，所以开发效率高更重要。</div>
+                          </div><p></p>
+                          <div>
+                              <a href="#">作者：李华</a>&nbsp;
+                              <span>发布于：2019-4-10</span>
+                              <a href=""><span class="glyphicon glyphicon-comment">评论(59)</span></a>
+                              <a href=""><span class="glyphicon glyphicon-thumbs-up">阅读(43)</span></a>
+                          </div>
+
+                      </div>
+                      <hr>
+                <div class="artical_item">
+                          <div><a href="xxx">python简介</a></div><p></p>
+                          <div class="row">
+                              <div class="col-lg-1">
+                                  <a href="#"><img src="/public/images/tou1.jpg" alt="" width="60" height="60"></a>
+                              </div>
+                              <div class="text col-lg-10">python之路 第一篇 一 编程语言： 1.机器语言：直接用二进制编程，直接操作硬件。 2.汇编语言：用英文标签来代替一串特定意义的二进制，直接操作硬件 3.高级语言：站在人的角度的语言，机器无法理解 综合来讲，由于程序员的时间比电脑时间更有价值，所以开发效率高更重要。</div>
+                          </div><p></p>
+                          <div>
+                              <a href="#">作者：李华</a>&nbsp;
+                              <span>发布于：2019-4-10</span>
+                              <a href=""><span class="glyphicon glyphicon-comment">评论(59)</span></a>
+                              <a href=""><span class="glyphicon glyphicon-thumbs-up">阅读(43)</span></a>
+                          </div>
+
+                      </div>
+                      <hr>
+                <div class="artical_item">
+                          <div><a href="xxx">python简介</a></div><p></p>
+                          <div class="row">
+                              <div class="col-lg-1">
+                                  <a href="#"><img src="/public/images/tou1.jpg" alt="" width="60" height="60"></a>
+                              </div>
+                              <div class="text col-lg-10">python之路 第一篇 一 编程语言： 1.机器语言：直接用二进制编程，直接操作硬件。 2.汇编语言：用英文标签来代替一串特定意义的二进制，直接操作硬件 3.高级语言：站在人的角度的语言，机器无法理解 综合来讲，由于程序员的时间比电脑时间更有价值，所以开发效率高更重要。</div>
+                          </div><p></p>
+                          <div>
+                              <a href="#">作者：李华</a>&nbsp;
+                              <span>发布于：2019-4-10</span>
+                              <a href=""><span class="glyphicon glyphicon-comment">评论(59)</span></a>
+                              <a href=""><span class="glyphicon glyphicon-thumbs-up">阅读(43)</span></a>
+                          </div>
+
+                      </div>
+                      <hr>
+
+                <div>
+                    <ul class="pagination">
+                        <li><a href="#">上一页</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li class="disabled"><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">下一页</a></li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

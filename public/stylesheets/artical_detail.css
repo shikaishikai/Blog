@@ -1,0 +1,29 @@
+.diggit{
+        float: left;
+    width: 46px;
+    height: 52px;
+    background: url(/static/images/upup.gif) no-repeat;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 2px;
+    padding-top: 5px;
+}
+.buryit {
+    float: right;
+    margin-left: 20px;
+    width: 46px;
+    height: 52px;
+    background: url(/static/images/downdown.gif) no-repeat;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 2px;
+    padding-top: 5px;}
+.nikname{
+    width: 200px;height: 20px;background-color: #dddddd;display: inline-block;padding-left: 50px;
+}
+.conment{
+    width: 400px;height: 200px
+}
+.content_var{
+    margin-left: 30px;
+}
